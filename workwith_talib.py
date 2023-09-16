@@ -27,6 +27,8 @@ import numpy as np
 import yfinance as yf
 import mplfinance as mpf
 from talib import abstract
+import pandas as pd
+import matplotlib.pyplot as plt
 
 
 def about_talib():

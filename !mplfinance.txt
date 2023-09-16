@@ -1,0 +1,20 @@
+Homepage
+http://github.com/matplotlib/mplfinance
+PyPi
+https://pypi.org/project/mplfinance/
+
+2023 Пакет Python для простого извлечения финансовых данных
+https://lilynois.ru/python-package-to-easily-retrieve-financial-data/
+
+https://www.youtube.com/results?search_query=python+mplfinance+подробное+описание
+2022 ВИЗУАЛИЗАЦИЯ ДАННЫХ. Трейдинг на Python
+https://www.youtube.com/watch?v=hl6p89NqWAM
+2023 Освойте самую гибкую библиотеку Python для создания великолепных финансовых визуализаций
+https://skine.ru/articles/38128/
+
+Примеры кода
+mplfinance | Financial Markets Data Visualization using Matplotlib | Data Visualization library
+https://kandi.openweaver.com/python/matplotlib/mplfinance
+
+Algo Trading
+https://code.luasoftware.com/tutorials/algo-trading/
