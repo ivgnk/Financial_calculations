@@ -14,13 +14,15 @@ def create_list_of_first_day_of_month_full_year(year_start:int, year_end:int)->l
             llst.append(datetime.date(year=curr_year,month=j,day=1))
     return llst
 
-def create_list_of_first_day_of_month_full_year_with_next_months(year_start:int, year_end:int)->list:
+def create_list_of_first_day_of_month_full_year_with_next_months(year_start:int, year_end:int)->list[datetime.date]:
     '''
     Дополнительно к "Задать первые числа месяцев для указанных начального и конечного годов"
     добавляем первое число следующего года (1 января)
     '''
     llst = create_list_of_first_day_of_month_full_year(year_start, year_end)
-    llst.append(datetime.date(year=year_end+1,month=1,day=1))
+    end_data = datetime.date(year=year_end+1,month=1,day=1)
+    # print(f'{type(end_data)=}')
+    llst.append(end_data)
     return llst
 
 if __name__ == "__main__":
