@@ -1,0 +1,91 @@
+Источники 24.09.2023
+
+- - - - Данные
+Главная > Биржевая информация> Котировки  https://www.moex.com/ru/data/
+Котировки акций ММВБ  https://smart-lab.ru/q/shares/
+Мировые Индексы > Индекс МосБиржи https://www.finam.ru/profile/mirovye-indeksy/micex/export/
+МосБиржа акции ГАЗПРОМ ао https://www.finam.ru/profile/moex-akcii/gazprom/export/
+
+Все Акции России https://ru.tradingview.com/markets/stocks-russia/market-movers-all-stocks/
+
+- - - Поиск
+https://ya.ru/search/?text=язык+программирования+python+api+доступа+к+ММВБ
+
+Программный интерфейс к ИСС https://www.moex.com/a2193
+# Руководство разработчика (v.1.4) https://fs.moex.com/files/6523
+# Описание метаданных https://iss.moex.com/iss/index
+# Описание методов https://iss.moex.com/iss/reference/
+# Примеры для разработчиков https://fs.moex.com/files/6524
+
+https://www.youtube.com/results?search_query=Python+Moex
+
+https://pypi.org/search/?q=moex
+
+https://github.com/search?q=moex&type=repositories
+https://github.com/search?q=moex+language%3APython&type=repositories&l=Python
+
+
+- - - - PyPi
+20 апр. 2023 г. Реализация части запросов к MOEX Informational & Statistical Server
+https://pypi.org/project/apimoex/ 
+
+8 сент. 2020 г. Реализация на основе asyncio части запросов к MOEX Informational & Statistical Server.
+https://pypi.org/project/aiomoex/
+# Почему asyncio?
+# На многие запросы MOEX ISS выдает данные порциями по 100 элементов, 
+# и для получения всей информации требуются дополнительные обращения к серверу для загрузки данных не с начальной позиции. 
+# Например, для скачивания котировок всех акций во всех режимах может потребоваться несколько десятков тысяч обращений к серверу.
+
+Asyncio MOEX ISS API https://wlm1ke.github.io/aiomoex/build/html/index.html
+
+
+- - - - Видео
+1. Azzrael Code https://www.youtube.com/@AzzraelCode
+Инвест Айтишник. Алготрейдинг, инвестиции и анализ. Бэктесты торговых ботов и разработка индикаторов
+видосы - НЕ обучающие. Это личный блог, обрывки рабочих моментов. Никаких курсов и структуры. 
+https://www.youtube.com/@AzzraelCode/playlists
+Московская биржа (MOEX) 
+https://www.youtube.com/playlist?list=PLWVnIRD69wY62qRnOw8EjaKyC8buYe1GH
+https://www.youtube.com/watch?v=lkrwSLpeN1I&list=PLWVnIRD69wY62qRnOw8EjaKyC8buYe1GH
+
+
+2. Титов Михаил [Инвест-блог] https://www.youtube.com/@user-wi4sk8ne8e
+Как скачать котировки акций с московской биржи. Cкачиваем котировки с помощью Python
+https://www.youtube.com/watch?v=FUucIQNNKjw
+
+
+- - - - GitHub
+https://github.com/WLM1ke/apimoex - Сlient for MOEX ISS - 67 star
+https://github.com/WLM1ke/aiomoex - Asyncio client for MOEX ISS - 76 star
+
+https://github.com/AzzraelCode
+https://github.com/AzzraelCode/moex-bonds - Исходный код к сериалу о работе с API Мосбиржи ( ISS MOEX ) на Python для канала Azzrael Code - 14 Star
+
+https://github.com/pecec/moex_iss - Python3 client for MOEX ISS - 11 Star
+
+https://github.com/nerevar/stock_prices - stock_prices. 
+Графики котировок ценных бумаг с Мосбиржи и NASDAQ. 
+Включает в себя кравлер суточных данных и платформу для отрисовки графиков - 85 star
+
+- - - - Статьи
+Как получить актуальные данные с Московской биржи при помощи Python: подробный гайд
+https://www.easydoit.ru/python/kak-poluchit-aktualnye-dannye-s-moskovskoj-birzhi-pri-pomoshhi-python-podrobnyj-gajd/
+
+https://azzrael.ru
+ISS MOEX (Мосбиржа) на Python. Отправка запроса с requests и обработка ответа в pandas
+https://azzrael.ru/iss-moex-python-requests-pandas
+
+09.09.2023 Взаимодействие с MOEX ISS через Python https://habr.com/ru/articles/759922/
+# Инструмент с обозначением EQBR торгуется в режиме «Т+0», а с обозначением TQBR в режиме «Т+2»
+
+25.02.2023 Serving MOEX(Moscow exchange) API with FastAPI
+https://dev.to/gealber/serving-moexmoscow-exchange-api-with-fastapi-91d
+
+24.04.2020 Качаем исторические данные с MOEX! https://smart-lab.ru/blog/616708.php
+10.05.2020 Как скачать много котировок акций РФ сразу https://smart-lab.ru/blog/620330.php
+ 
+
+Как начать работать с актуальными данными Московской биржи, используя Python: подробное руководство
+https://zdrons.ru/veb-programmirovanie/kak-nachat-rabotat-s-aktualnymi-dannymi-moskovskoj-birzhi-ispolzuya-python-podrobnoe-rukovodstvo/
+
+
